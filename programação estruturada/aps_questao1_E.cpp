@@ -2,7 +2,7 @@
 #include <string.h>  
 #include <iostream>
 #include <locale.h>
-#include "aps_questao2.cpp"
+#include "aps_questao1_B.cpp"
 
 using namespace std;
 
@@ -48,16 +48,6 @@ int mdcRecursivo(int num1, int num2, int primo){
 
 }
 
-bool tester(int expected, int n1, int n2, int primo){
-	int resultado = mdcRecursivo(n1,n2,2);
-	
-	if(resultado == expected ){
-		cout<<"Deu certo, Deus no comando";
-	}else{
-		cout<<"Não deu certo";
-	}
-	return 1;
-}
 
 
 

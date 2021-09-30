@@ -14,9 +14,9 @@ int main()
 	posMenor = 0;
 	maior = 0;
 	int vetor[10];
-	cout<<"Programa para ler 10 numero\n"<<"1-Armazenar em um vetor\n"<<"2- Imprimir o vetor, maior, menor e posições\n";
+	cout<<"Programa para ler 10 números\n"<<"1-Armazenar em um vetor\n"<<"2- Imprimir o vetor, maior, menor e posições\n";
 	do{
-		cout<<"Digite o "<<count+1<<"° numero ";
+		cout<<"Digite o "<<count+1<<"° numero: ";
 		cin>>num;
 		vetor[count] = num;
 		count++;
